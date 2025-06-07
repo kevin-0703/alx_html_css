@@ -273,3 +273,135 @@ h6 {
     float: none;
   }
 }
+/* General styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.3rem 0 0;
+  color: #666;
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  background-color: #ffffff;
+  margin: 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+nav li {
+  margin: 0;
+  padding: 1rem;
+}
+
+nav li a {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Flex Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article and Aside */
+article {
+  flex: 2;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+  border-left: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 2px solid #e0e0e0;
+}
+
+/* Article content enhancements */
+article h2,
+article h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustment for smartphone class */
+.works_on_smartphone {
+  flex-direction: column;
+}
+
+.works_on_smartphone main {
+  flex-direction: column;
+}
+
+.works_on_smartphone aside,
+.works_on_smartphone article {
+  flex: auto;
+}
