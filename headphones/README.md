@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this project required us to implement a design with css and html which was very challenging but educative. with this project i mastered responsive design through working vigorously.
+=======
+this project is part of ALX Front-End curriculum and demonstrates the application of advanced css techniques to build responsive design, multi-section landing page based on figma design. this is a redo of the project as i previously did not put an effort into it but now i did and i learnt a lot and with more practice in coming weeks i expect to master what i done poorly in this project.
+>>>>>>> recovered-files

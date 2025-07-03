@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   background-color: #000;
@@ -164,4 +165,143 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+=======
+.container {
+  background-image: url("images/headphones_hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 32px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  color: white;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: #ff6565;
+}
+#navbar {
+  margin-left: 90px;
+  margin-top: 25px;
+  color: white;
+  font-weight: bold;
+}
+#navlogo {
+  width: 161px;
+  height: 32px;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+.hero {
+  position: relative;
+  align-content: center;
+  justify-content: space-between;
+  justify-items: space-around;
+  display: column;
+  width: 637px;
+  height: 3131px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.hero-text {
+  margin-top: 300px;
+  font-weight: 32px;
+  justify-items: space-around;
+}
+#hero-h2 {
+  margin-top: 11px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 16px;
+}
+.subheading {
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+}
+#hero-h1 {
+  margin-top: 11px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+.hero-2 {
+  justify-content: space-around;
+  justify-items: center;
+}
+#calltoaction {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 162px;
+  height: 44px;
+  background-color: #ff6565;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+#calltoaction:hover {
+  opacity: 0.9;
+}
+.burger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 375px) {
+  html {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .container {
+    background-image: url("images/headphones_hero_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 869px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #333;
+    flex-direction: column;
+    display: none; /* Hidden by default */
+  }
+
+  .nav.show {
+    display: flex; /* Show when toggled */
+  }
+
+  .burger {
+    display: block;
+  }
+>>>>>>> recovered-files
 }
